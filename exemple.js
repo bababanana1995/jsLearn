@@ -1,10 +1,16 @@
 let students = {
-  'group1': ['student11', 'student12', 'student13'],
-  'group2': ['student21', 'student22', 'student23'],
-  'group3': ['student31', 'student32'],
-};
-for (const key in students) {
-  for (const name of students[key]) {
-    console.log(name)
-  }
+  'group1': {
+    'subgroup11': ['student111', 'student112', 'student113'],
+    'subgroup12': ['student121', 'student122', 'student123'],
+  },
+  'group2': {
+    'subgroup21': ['student211', 'student212', 'student213'],
+    'subgroup22': ['student221', 'student222', 'student223'],
+  },
+  'group3': {
+    'subgroup31': ['student311', 'student312', 'student313'],
+    'subgroup32': ['student321', 'student322', 'student323'],
+  },
 }
+students.group1.subgroupOleg = []
+console.log(students)
