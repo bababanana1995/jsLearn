@@ -234,3 +234,14 @@
 // func()
 // func()
 // func()
+// function findNextSquare(sq) {
+//   // Return the next square if sq is a perfect square, -1 otherwise
+//     let around = Math.ceil(Math.sqrt(sq))
+//   if(Math.ceil(Math.sqrt(sq))===Math.sqrt(sq))
+//     return (around + 1)**2
+//   else return -1
+// }
+//
+// console.log(findNextSquare(144))
+// const findNextSquare=(sq) => Math.sqrt(sq)%1?-1:Math.pow(Math.sqrt(sq)+1,2)
+// console.log(findNextSquare(196))
