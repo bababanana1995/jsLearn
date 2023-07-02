@@ -112,3 +112,12 @@
 //   }
 // }
 // sqrt(arr,sum)
+// fun()
+// function fun(){
+//   console.log('Hello')
+// }
+//
+// let fun1 =function (){
+//   console.log('byby')
+// }
+// fun1()
