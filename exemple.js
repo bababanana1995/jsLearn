@@ -121,3 +121,116 @@
 //   console.log('byby')
 // }
 // fun1()
+// test()
+// func()
+// let test = function func() {
+//   console.log('!');
+// }
+// console.log(
+//   function func() {
+//     console.log('!');
+//   }
+// );
+// function func() {
+//   console.log('!');
+// }
+// func()
+// let obj = {
+//   func1: function() {console.log(1)},
+//   func2: function() {console.log(2)},
+//   func3: function() {console.log(3)},
+// };
+//
+// obj.func1()
+// for (const objKey in obj) {
+//   console.log(obj[objKey])
+// }
+// let math = {
+//   square: function(num) {return num * num},
+//   cube: function(num) {return num * num * num},
+// };
+// console.log(math.square(2))
+// console.log(math.cube(3))
+// let fun1 = function (){
+//   return 1
+// }
+// let fun2 = function (){
+//   return 100
+// }
+// function sum(a,b){
+//   return a()+b()
+// }
+//
+// console.log(sum(fun1,fun2))
+// cube(function(num) {
+//   return num * num;
+// });
+//  function cube(fun){
+//   console.log(fun(3))
+// }
+// function ex(num, fun){
+//   console.log(num**fun(5))
+// }
+// ex(3,function(num){return num })
+// const sum=(arr, fun)=>{
+//   for (const arrElement of arr) {
+//     fun(arrElement)
+//   }
+// }
+// sum([2,4,5,6], function (num){
+//   console.log(num**2)})
+// const func=(num1,num2)=>{
+//   function square(num){
+//     return num**2
+//   }
+//
+//   console.log(square(num1)+square(num2))
+// }
+// func(5,6)
+// function counter(){
+//   let num = 1
+//   return function (){
+//     return num++
+//   }
+// }
+// let ready =counter()
+// // console.log(ready())
+// // console.log(ready())
+// // console.log(ready())
+// // console.log(ready())
+// // console.log(ready())
+// // console.log(ready())
+// console.log(counter()())
+// console.log(counter()())
+// console.log(counter()())
+// console.log(counter()())
+// console.log(counter()())
+// console.log(counter()())
+//   let num = 1
+// function counter(){
+//   console.log(num)
+//   return function (){
+//     return num++
+//   }()}
+//
+// counter()
+// counter()
+// counter()
+// counter()
+// +function call(){
+//   console.log('hello')
+// }()
+// console.log(counter)
+// let sum = 1 + function(){return 2}()
+// console.log(sum)
+// let func = (function (){
+//   let num = 1
+//   return function (){
+//     console.log(num++)
+//   }
+// })()
+// func()
+// func()
+// func()
+// func()
+// func()
