@@ -245,3 +245,128 @@
 // console.log(findNextSquare(144))
 // const findNextSquare=(sq) => Math.sqrt(sq)%1?-1:Math.pow(Math.sqrt(sq)+1,2)
 // console.log(findNextSquare(196))
+// let result = every([1, 2, 3, 4, 5], function(elem) {
+//   if (elem > 0) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+// let eva=(elem)=> elem>0
+// let res = every([1, 2, 3, 4, 5],elem=>elem>0)
+// let result = every([1, 2, 3, 4, 5], function(elem, index) {
+//   if (elem * index > 10) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// });
+// let result = every([1, 2, 3, 4, 5], (elem, index)=>(elem * index > 10));
+// let i =1
+// const recurs=()=>{
+//   console.log(i)
+//   i+=10
+//   if(i<=100){
+//     recurs()
+//   }
+// }
+// recurs()
+// const fun1=(arr)=>{
+//   console.log(arr.shift(),arr)
+//   if (arr.length!==0){
+//     fun1(arr)
+//   }
+// }
+// fun1([1,2,3,4])
+// const fun1=(arr=[1,2,3,4])=>{
+//   console.log(arr.pop())
+//   if(arr.length!==0){
+//     fun1(arr)
+//   }
+// }
+// fun1()
+// let res =0
+// const sum=(arr=[2,4,6,4])=>{
+//   for (const number of arr) {
+//     console.log(number)
+//    res+= number**2
+//   }
+// }
+// sum()
+// console.log(res)
+// function func(arr) {
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       func(elem);
+//     } else {
+//       console.log(elem);
+//     }
+//   }
+// }
+//
+// func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]);
+// let object ={a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: 9}}}}
+// const primitive=(obj=object)=>{
+//   for (const key in obj) {
+//     if(typeof obj[key]==='object') {
+//       primitive(obj[key])
+//     }else{
+//       console.log(obj[key])}
+//   }
+// }
+// primitive()
+// function func(arr) {
+//   let sum = 0;
+//
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       sum += func(elem);
+//     } else {
+//       sum += elem;
+//     }
+//   }
+//
+//   return sum;
+// }
+//
+// console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
+// let object = {a: 1, b: {c: 2, d: 3, e: 4}, f: {g: 5, j: 6, k: {l: 7, m: {n: 8, o: 9}}}}
+// let sum = 0
+// const sumPrim=(obj=object)=>{
+//   for (const key in obj) {
+//     if(typeof obj[key]==='object'){
+//       sumPrim(obj[key])
+//     }else{
+//       sum+=obj[key]
+//     }
+//   }
+// }
+// sumPrim()
+// console.log(sum)
+let array = [1, [2, 7, 8], [3, 4, [5, [6, 7]]]]
+let sum = 0
+const fun1=(arr=array)=>{
+  for (const elem of arr) {
+    if(typeof elem==='object'){
+      sum += fun1(elem)
+    }else{sum+=elem}
+  }
+  return sum
+}
+let totalSum = fun1()
+console.log(totalSum)
+// function func(arr) {
+//   let sum = 0;
+//
+//   for (let elem of arr) {
+//     if (typeof elem == 'object') {
+//       sum += func(elem);
+//     } else {
+//       sum += elem;
+//     }
+//   }
+//
+//   return sum;
+// }
+//
+// console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
