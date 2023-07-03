@@ -343,18 +343,18 @@
 // }
 // sumPrim()
 // console.log(sum)
-let array = [1, [2, 7, 8], [3, 4, [5, [6, 7]]]]
-let sum = 0
-const fun1=(arr=array)=>{
-  for (const elem of arr) {
-    if(typeof elem==='object'){
-      sum += fun1(elem)
-    }else{sum+=elem}
-  }
-  return sum
-}
-let totalSum = fun1()
-console.log(totalSum)
+// let array = [1, [2, 7, 8], [3, 4, [5, [6, 7]]]]
+// let sum = 0
+// const fun1=(arr=array)=>{
+//   for (const elem of arr) {
+//     if(typeof elem=='object'){
+//       sum += fun1(elem)
+//     }else{sum+=elem}
+//   }
+//   return sum
+// }
+// let totalSum = fun1()
+// console.log(totalSum)
 // function func(arr) {
 //   let sum = 0;
 //
@@ -370,3 +370,51 @@ console.log(totalSum)
 // }
 //
 // console.log(func([1, [2, 7, 8], [3, 4, [5, [6, 7]]]]));
+// let array = ['a', ['b', 'c', 'd'], ['e', 'f', ['g', ['j', 'k']]]]
+// let sumArr=[]
+// const fun1=(arr=array)=>{
+//   for (const elem of arr) {
+//     if(typeof elem ==='object'){
+//       fun1(elem)
+//     }else {
+//       sumArr.push(elem)
+//     }
+//   }
+// }
+// fun1()
+// console.log(sumArr.join(''))
+// console.log(Array.isArray(array))
+// let arr = [1, 2, 3, 4, 5];
+// arr.map(el=>console.log(el))
+// let arr = [16, 36, 121, 144, 625]
+// console.log(arr.map(el=>Math.sqrt(el)))
+// let str = ['hello','by-by','jora']
+// // console.log(str.map(el=>el+'!'))
+// console.log(str.map(el=>el.split('').reverse().join('')))
+// let arr = ['123', '456', '789'];
+// console.log(arr.map(el=>el.split('')))
+// console.log(arr.map((el,index)=>console.log(index)))
+// let res =arr.map(el=>Array.isArray(el)?el.map(elem=>elem+100):el+1)
+// console.log(res)
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let sum = []
+// arr.forEach(el=>sum.push(el+2))
+// console.log(sum)
+// let arr = [1, 2, 3, 4, 5];
+// console.log(arr.filter(el=>el%2===0))
+let arr = [-1,1,-5,5,-6,3,50,60,13]
+// console.log(arr.filter(el=>el>0 && el<14))
+// let arr = [1, 2, [3, 4], 5, [6, 7]]
+// console.log(arr.filter(el=>!Array.isArray(el)))
+console.log((arr.filter(el=>el<0)).length)
+
+
+
+
+
+
+
+
+
+
+
