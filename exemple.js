@@ -402,19 +402,52 @@
 // console.log(sum)
 // let arr = [1, 2, 3, 4, 5];
 // console.log(arr.filter(el=>el%2===0))
-let arr = [-1,1,-5,5,-6,3,50,60,13]
+// let arr = [-1,1,-5,5,-6,3,50,60,13]
 // console.log(arr.filter(el=>el>0 && el<14))
 // let arr = [1, 2, [3, 4], 5, [6, 7]]
 // console.log(arr.filter(el=>!Array.isArray(el)))
-console.log((arr.filter(el=>el<0)).length)
-
-
-
-
-
-
-
-
-
-
-
+// console.log((arr.filter(el=>el<0)).length)
+// let arr =[2,4,6,8]
+// let arr1 =[3,4,5,8]
+//
+// // console.log(arr.every(el=>el%2===0))
+// // console.log(arr.some(el=>el%5===0))
+// const fun1=(n1,n2,n3)=>{
+//   console.log(n1+n2+n3)
+// }
+// fun1(...arr)
+// let arr =[2,4,6,8]
+// let arr1 =[3,4,5,8]
+// console.log(...arr,...arr1)
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+//
+// let arr  = ['a', ...arr1, 'b', 'c', ...arr2];
+// console.log(arr);
+// let arr1 = [1, 2, 3];
+// let arr2 = [4, 5, 6];
+//
+// let arr  = ['a', ...arr1, ...arr1, 'b', 'c'];
+// console.log(arr);
+// let arr1 = [1, 2, 3];
+// let arr2 = [...arr1, 4, 5, 6];
+//
+// let arr  = ['a', 'b', 'c', ...arr2];
+// console.log(arr);
+// let arr1 = [1, 2, 3];
+// let arr2 = [...arr1];
+//
+// console.log(arr2);
+//
+// let arr = ['a', ...'12345'];
+// console.log(arr);
+// let arr = [...'12345', ...'56789'];
+// console.log(arr);
+// const sum=(...num)=>{
+//   let sum = 0
+//   for (const numElement of num) {
+//     sum+=numElement/num.length
+//   }
+//   return sum
+// }
+// console.log(sum(1,2,3,2,4,5,6))
