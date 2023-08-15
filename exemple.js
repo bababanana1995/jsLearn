@@ -451,14 +451,23 @@
 //   return sum
 // }
 // console.log(sum(1,2,3,2,4,5,6))
-const peopleWithAgeDrink=(old)=> {
-    if (old < 14)
-      return "drink toddy"
-    if (old >=14 && old < 18)
-      return "drink coke"
-    if (old >=18 && old <= 21)
-      return "drink beer"
-    if (old >21)
-      return "drink whisky"
-}
-console.log(peopleWithAgeDrink(21))
+// const peopleWithAgeDrink=(old)=> {
+//     if (old < 14)
+//       return "drink toddy"
+//     if (old >=14 && old < 18)
+//       return "drink coke"
+//     if (old >=18 && old <= 21)
+//       return "drink beer"
+//     if (old >21)
+//       return "drink whisky"
+// }
+// console.log(peopleWithAgeDrink(21))
+// function minMax(arr){
+//   let sortArray = arr.sort()
+//   return [sortArray[0], sortArray[arr.length-1]]
+// }
+// const minMax2=(arr)=>{
+//   return [Math.min(...arr),Math.max(...arr)]
+// }
+//
+// console.log(minMax([5,10]))
