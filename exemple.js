@@ -471,3 +471,8 @@
 // }
 //
 // console.log(minMax([5,10]))
+function countDevelopers(list) {
+  let result = 0
+  list.map(el=>el.continent === 'Europe'? result+=1:0)
+  return result
+}
